@@ -6,7 +6,7 @@ def searchInsert(nums, target):
     :type target: int
     :rtype: int
     """
-    pos = bisect.bisect_left(nums, target)
+    pos = bisect_left(nums, target)
     print(pos)
 
-searchInsert([1,3,5,6], 5)
+searchInsert([1,3,5,6], 2)
